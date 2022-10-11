@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(to right bottom, #05203b, #80aff0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+}
+
+.position {
+  position: relative;
+  right: 25px;
+  margin-right: -16px;
+}
+
+.container {
+  width: 70%;
+}
+
+.card-body {
+  background-color:  #f4f2f2;
+}
+.card-body * {
+  padding: 0.3rem;
+}
+
+.form-control  {
+  background-color:  #f4f2f2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 120%;
+  }
+}
