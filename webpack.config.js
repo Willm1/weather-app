@@ -4,8 +4,9 @@ module.exports = {
   entry: path.resolve(__dirname, "./lib/index.js"),
   mode: "development",
   output: {
+    publicPath: process.env.NODE_ENV === 'production' ? '/weather-app/' : '/',
     path: path.resolve(__dirname, "dist"),
-    filename: "main.js"
+    filename: "index.js"
   },
   devtool: "sourcemap",
   module: {
